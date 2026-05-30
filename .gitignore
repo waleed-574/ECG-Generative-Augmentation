@@ -1,0 +1,17 @@
+# Ignore all local datasets to keep GitHub repository lightweight
+data/
+*.zip
+*.tar.gz
+
+# Python environment and cache tracking files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.virtualenv/
+env/
+venv/
+
+# Deep Learning model weights
+*.pt
+*.pth
